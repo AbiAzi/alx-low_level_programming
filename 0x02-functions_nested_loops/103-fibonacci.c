@@ -5,7 +5,7 @@
  * followed by a new line
  * Return: Always 0 (Success)
  */
-int main(void)#include <stdio.h>
+int main(void)
 {
 	int i;
 	unsigned long int j, k, next, sum;
