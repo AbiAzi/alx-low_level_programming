@@ -12,22 +12,22 @@ void print_diagonal(int n)
 
 		if (n > 0)
 		{
-			for (i = 0; i < n; i++)
-			{
-				for (j = 0; j < i; j++)
-				{
-				putchar(' ');
-				}
+		for (i = 0; i < n; i++)
+		{
+		for (j = 0; j < i; j++)
+		{
+		putchar(' ');
+		}
 
-				putchar('\\');
+		putchar('\\');
 
-				if (i == (n - 1))
-				{
-				continue;
-				}
-				putchar('\n');
-			}
+		if (i == (n - 1))
+		{
+		continue;
+		}
+		putchar('\n');
+		}
 
-	}
+		}
 
 }
