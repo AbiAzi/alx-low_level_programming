@@ -2,14 +2,12 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
+ * print_triangle - prints a triangle, followed by a new line
+ * @size: size of the triangle
  * Return: always 0.
  */
-
 void print_triangle(int size)
 {
-
 	if (size <= 0)
 	{
 	_putchar('\n');
@@ -29,6 +27,7 @@ void print_triangle(int size)
 	{
 	_putchar ('#');
 	}
+
 	_putchar('\n');
 
 	}
