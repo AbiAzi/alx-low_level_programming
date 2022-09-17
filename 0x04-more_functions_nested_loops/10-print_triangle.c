@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code
- * Return: Always 0.
+ * print_triangle - prints a triangle, followed by a new line
+ * @size: size of the triangle
  */
-
 void print_triangle(int size)
 {
 if (size <= 0)
