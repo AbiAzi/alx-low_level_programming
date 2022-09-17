@@ -7,29 +7,28 @@
  * and for the multiples of five prints Buzz
  * Return: Always 0 (Success)
  */
-int main(void)
+void print_triangle(int size)
 {
-	int i;
-	for (i = 1; i <= 100; i++)
+	int i, j;
+	for (size > 0)
 	{
-	if (i % 3 == 0 && i % 5 != 0)
+	for (i = 1; j <= size; i++)
 	{
-	printf(" Fizz");
-	}else if (i % 5 == 0 && i % 3 != 0)
+	for ((i = size - i); j > 0; j--)
 	{
-	printf(" Buzz");
-	} else if (i % 3 == 0 && i % 5 == 0)
-	{
-	printf(" FizzBuzz");
-	} else if (i == 1)
-	{
-	printf("%d", i);
-	} else
-	{
-	printf(" %d", i);
+	putchar('');
 	}
+	for (j = 0; j < i; j++)
+	{
+	putchar ('#');
+	}
+	if (i == size)
+	{
+	continue;
 	}
 	printf("\n");
+	}
 
+	}
 	return (0);
 }
