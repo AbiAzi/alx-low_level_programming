@@ -1,10 +1,10 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * main - prints the numbers from 1 to 100, followed by a new line
- * but for multiples of three prints Fizz instead of the number
+ * main - check the code
  *
- * Return: 0
+ * Return: always 0.
  */
 
 void print_triangle(int size)
@@ -17,6 +17,8 @@ void print_triangle(int size)
 	}
 	else
 	{
+	int i, j;
+
 	for(i = 1; i <= size; i++)
 	{
 	for (j = i; j < size; j++)
