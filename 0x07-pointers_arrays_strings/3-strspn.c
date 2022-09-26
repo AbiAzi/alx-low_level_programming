@@ -23,7 +23,7 @@ unsigned int _strspn(char *s, char *accept)
 		{
 		f++;
 		flag = 1;
-
+		}
 		}
 		if (flag == 0)
 		{
@@ -31,4 +31,5 @@ unsigned int _strspn(char *s, char *accept)
 		}
 		}
 		return (0);
+
 }
