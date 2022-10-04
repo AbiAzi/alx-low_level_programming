@@ -1,4 +1,21 @@
 #include "main.h"
+<<<<<<< HEAD
+/**
+* _strcpy - Copy paste string
+*@dest: destination
+*@src: source
+*Return: dest
+*/
+char *_strcpy(char *dest, char *src)
+{
+int inc = 0;
+while (*(src + inc) != '\0')
+{
+*(dest + inc) = *(src + inc);
+inc++;
+}
+*(dest + inc) = '\0';
+=======
 
 /**
  * *_strcpy - copies the string pointed to by src
@@ -23,5 +40,6 @@ dest[i] = src[i];
 }
 dest[i] = '\0';
 
+>>>>>>> ac04762a46480fa45229773f14b12b9136d59fba
 return (dest);
 }
